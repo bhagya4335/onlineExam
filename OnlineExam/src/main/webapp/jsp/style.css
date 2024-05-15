@@ -1,0 +1,311 @@
+@charset "ISO-8859-1";
+
+/* Styling for the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #f2f2f2;*/
+    margin: 0;
+    padding: 0;
+    /*background-color: #152235;*/
+    background-image: url('Im23.jpg'); /* Path to your background image */
+    background-size: cover; /* Adjust the image size to cover the button */
+    transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */
+  
+   
+   
+}
+
+
+/* Styling for the form container */
+div {
+    width: 30%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:  100px;
+ 
+   
+}
+
+.flex{
+	
+	width: 30%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    margin-top:  128px;
+    margin-left: 267px;
+    background-image: url('Im2.jpg'); /* Path to your background image */
+    background-size: cover; /* Adjust the image size to cover the button */
+    transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */
+    height: 413px;
+    
+	
+}
+
+.flex1{
+	
+	width: 30%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+    margin-right:  260px;
+    margin-top: -455px;
+    color: white;
+    background-image: url('Im5.jpg'); /* Path to your background image */
+    background-size: cover; /* Adjust the image size to cover the button */
+    transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */
+	
+}
+
+.cn{
+	 width: 30%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    margin-top:  100px;
+   
+	
+}
+
+/* Styling for the input fields */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+input[type="submit"]:hover {
+    background-color: #008040; /* New background color on hover */
+}
+
+/* Styling for the login button */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+
+button:hover {
+    background-color: #0056b3; /* New background color on hover */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    div {
+        width: 100%;
+    }
+}
+
+.mr{ 
+	margin-top: 15px;
+	color: black;
+
+}
+
+
+.m{ 
+	margin-top: 15px;
+	color: white;
+    
+}
+
+/* Styling for the Success page*/
+
+/* Styling for the body container */
+.success{
+	
+	background-image: url('Im33.jpg'); /* Path to your background image */
+    background-size: cover; /* Adjust the image size to cover the button */
+    transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */
+}
+
+/* Styling for the form container */
+.cnt {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-top:  100px;
+    border: 3px solid black;
+     opacity: 0.95;
+
+}
+
+/* Styling for the form container */
+.box{
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-top: 7px;
+    border: 3px solid black;
+     opacity: 0.95;
+     
+}
+
+.form{
+	 
+	 text-align: justify;
+	 margin-left : 70px;
+	 
+}
+
+
+
+
+
+/* Styling for the Result page*/
+.G{
+	width: 100%;
+    max-width: 480px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top:  100px;
+    text-align: center;
+	height: 250px;
+	border: 3px solid black;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);	
+    opacity: 0.9;
+  
+	
+}
+
+.p{
+	width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 7px;
+    text-align: center;
+    
+  
+	
+}
+
+.s{
+	width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 7px;
+    text-align: center;
+    
+}
+
+
+.btn{
+	
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:690px;
+    margin-top: 7px;
+
+}
+
+.btn:hover {
+    background-color: #0056b3; /* New background color on hover */
+}
+
+
+
+
+
+/* Styling for the ViewUsers page*/
+.v{
+	background-image: url('Im19jpg'); /* Path to your background image */
+    background-size: cover; /* Adjust the image size to cover the button */
+    transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */
+  
+}
+
+.u{
+	width: 100%;
+    max-width: 615px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border: 3px solid black;
+    margin-top:  25px;
+    text-align: center;
+	height: auto;
+	padding-bottom: 70px;
+	
+}
+
+.tr{
+	 margin-left: 60px ;
+    text-align: center;
+ 
+}
+	
+	
+/* Styling for the Login page*/
+
+/* Styling for the Login div */
+.login{
+	
+	border: 3px solid black;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);	
+    opacity: 0.9;
+}	
+
+/* Styling for the Login body */
+.B{
+	background-image: url('Im26.png'); /* Path to your background image */
+    background-size: cover; /* Adjust the image size to cover the button */
+    transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */ 
+     
+   
+}
+
+
+
+#para{
+	colour: pink;
+	margin-top: 14px;
+	    margin-left: 35px;
+}
+
